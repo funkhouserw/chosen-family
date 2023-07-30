@@ -10,6 +10,10 @@ This is the proposed JSON standard format for someone who will be added to the f
   "description": "Proposed Standard For a PERSON object on a family tree",
   "type": "object",
   "properties": {
+    "id": {
+      "description": "A valid uuidv4 id.",
+      "type": "string"
+    },
     "name": {
       "description": "a NAME object. TODO for me to write NAME.md,
       "type": "object",
@@ -48,7 +52,22 @@ This is the proposed JSON standard format for someone who will be added to the f
         $ref: "TODO: standard relationship_title thing."
       }
     }
+    "additional_info": {
+      "description": "A collection of any additional information stored as key/value strings",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": ["key", "value"]
+    }
   },
-  "required": [ "name","gender", ]
+  "required": [ "name","gender","id"]
 }
 ```
