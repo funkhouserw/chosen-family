@@ -1,9 +1,19 @@
 # chosen-family
 
-Your Chosen Family is not 
+What is a chosen family?
+
+ A chosen family is a combination of biological and nonbiological kith and kinship bonds,
+ whether legally recognized or not, deliberately chosen for the purpose of mutual support and love.
+
+ Your chosen family may be your biological family. Maybe with a godparent thrown in. 
+ Your chosen family may be a large, extended family consisting of in-laws, ex-in-laws that you still share a bond with.
+ Your chosen family may be your friends that you rely upon. 
+ 
+ Regardless of the structure, biological nature, or size of your family, you deserve a tool to document, view, and share it. 
 
 
-An inclusive, open-source alternative to GEDCOM for family trees and genealogical information.
+
+This is an inclusive, open-source alternative to GEDCOM for family trees and genealogical information.
 
 - Track biological/genealogical data as well as your "chosen family", including godparents, partners, etc.
 - Inclusive gender/pronoun support and a wide range of living rangements
